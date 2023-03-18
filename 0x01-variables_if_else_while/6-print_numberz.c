@@ -1,10 +1,10 @@
 #include <stdio.h>
-
 /**
  * main - main function
  *
- * Return: Always 0
+ * Return: always 0
  */
+
 int main(void)
 {
 	int c;
@@ -13,7 +13,7 @@ int main(void)
 	while
 		(c < 10) {
 			putchar(c + '0');
-			c++
+			c++;
 		}
 	putchar('\n');
 	return (0);
