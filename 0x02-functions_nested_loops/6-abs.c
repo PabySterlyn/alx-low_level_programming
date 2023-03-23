@@ -5,12 +5,12 @@
  *
  * @c: parameter to be checked
  *
- * Return: always 0
+ * Return: always a
  */
 int _abs(int a)
 {
 	if (a < 0)
-		a = -(a);|
+		a = -(a);
 	else if (a >= 0)
 		a = a;
 	return (a);
